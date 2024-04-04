@@ -1,7 +1,7 @@
 import { ConferenceView } from "@/views/ConferenceView";
 import React, { useEffect, useState } from "react";
 
-const ConferencePage = React.memo(() => {
+const ConferencePage = (() => {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -14,4 +14,3 @@ const ConferencePage = React.memo(() => {
 });
 
 export default ConferencePage;
-ConferencePage.displayName = "ConferencePage";

@@ -1,7 +1,7 @@
 import { CommentView } from "@/views/CommentView";
 import React, { useEffect, useState } from "react";
 
-const CommentPage = React.memo(() => {
+const CommentPage = (() => {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -14,4 +14,3 @@ const CommentPage = React.memo(() => {
 });
 
 export default CommentPage;
-CommentPage.displayName = "CommentPage";

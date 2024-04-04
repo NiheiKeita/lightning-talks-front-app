@@ -1,10 +1,9 @@
 import React from "react";
 
-export const LightningTalkView = React.memo(() => {
+export const LightningTalkView = (() => {
   return (
     <div>
-      カンファレンス一覧
+      ライトニングトーク一覧
     </div>
   );
 });
-LightningTalkView.displayName = "LightningTalkView";

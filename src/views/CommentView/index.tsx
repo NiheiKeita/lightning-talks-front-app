@@ -1,10 +1,9 @@
 import React from "react";
 
-export const CommentView = React.memo(() => {
+export const CommentView = (() => {
   return (
     <div>
-      カンファレンス一覧
+      コメント一覧
     </div>
   );
 });
-CommentView.displayName = "CommentView";

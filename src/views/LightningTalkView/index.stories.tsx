@@ -1,12 +1,12 @@
 import { expect } from '@storybook/jest';
 import { Meta, StoryObj } from '@storybook/react';
 import { userEvent, within } from '@storybook/testing-library';
-import { ConferenceView } from '.';
+import { LightningTalkView } from '.';
 
 
-const meta: Meta<typeof ConferenceView> = {
-  title: 'views/ConferenceView',
-  component: ConferenceView,
+const meta: Meta<typeof LightningTalkView> = {
+  title: 'views/LightningTalkView',
+  component: LightningTalkView,
   tags: ['autodocs'],
 }
 export default meta
