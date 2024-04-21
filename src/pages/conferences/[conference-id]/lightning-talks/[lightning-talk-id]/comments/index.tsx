@@ -1,7 +1,7 @@
-import { CountView } from "@/views/CountView";
+import { CommentView } from "@/views/CommentView";
 import React, { useEffect, useState } from "react";
 
-const CountPage = (() => {
+const CommentPage = (() => {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -10,7 +10,7 @@ const CountPage = (() => {
     return null;
   }
 
-  return <CountView />;
+  return <CommentView />;
 });
 
-export default CountPage;
+export default CommentPage;

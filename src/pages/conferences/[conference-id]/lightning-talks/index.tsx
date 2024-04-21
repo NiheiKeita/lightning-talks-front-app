@@ -1,7 +1,7 @@
 import { LightningTalkView } from "@/views/LightningTalkView";
 import React, { useEffect, useState } from "react";
 
-const LightningTalkePage = React.memo(() => {
+const LightningTalkePage = (() => {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -14,4 +14,3 @@ const LightningTalkePage = React.memo(() => {
 });
 
 export default LightningTalkePage;
-LightningTalkePage.displayName = "LightningTalkePage";

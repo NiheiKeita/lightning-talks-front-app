@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { ConferenceView } from '.';
+import { CommentCreateView } from '.';
 
 
-const meta: Meta<typeof ConferenceView> = {
-  title: 'views/ConferenceView',
-  component: ConferenceView,
+const meta: Meta<typeof CommentCreateView> = {
+  title: 'views/CommentCreateView',
+  component: CommentCreateView,
   tags: ['autodocs'],
 }
 export default meta
